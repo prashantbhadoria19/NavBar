@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 320px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 0 0px 50px red;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 16px;
+}
+
+.name{
+    margin-bottom: 4px;
+}
+
+.role{
+    color: #4da6ff;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.bio{
+    color: #aaaaaa;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 4px;
+   transition: background-color 0.3s ease;
+}
+.btn-primary { background-color: #4da6ff; color: #fff; }
+.btn-secondary { background-color: #3a3a3a; color: #fff; }
+
+.btn-primary:hover { background-color: #2b8ae6;  }
+.btn-secondary:hover { background-color: #505050;  }
